@@ -42,7 +42,7 @@ public class TwilioGatewayTest extends TestCase
         
         SMSRequest req = new SMSRequest ();
         req.setTo("+15147580191");
-        req.setBody ("This is a test from is-sms-web");
+        req.setBody ("twilio: This is a test from is-sms-web");
         
         TwilioGateway g = new TwilioGateway ();
         g.init (p);

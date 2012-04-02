@@ -40,7 +40,7 @@ public class DynamaryGatewayTest extends TestCase
         
         SMSRequest req = new SMSRequest ();
         req.setTo("+15147580191");
-        req.setBody ("This is a test from is-sms-web");
+        req.setBody ("dynamark: This is a test from is-sms-web");
         
         DynamarkGateway g = new DynamarkGateway ();
         g.init (p);

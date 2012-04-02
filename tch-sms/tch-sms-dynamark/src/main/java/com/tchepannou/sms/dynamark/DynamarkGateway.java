@@ -73,7 +73,7 @@ public class DynamarkGateway
         
         post.setRequestBody(data);        
         client.executeMethod(post);         
-        String response = post.getResponseBodyAsString();
+        //String response = post.getResponseBodyAsString();
         
         SMSResponse resp = new SMSResponse ();
         SAXReader reader = new SAXReader();
