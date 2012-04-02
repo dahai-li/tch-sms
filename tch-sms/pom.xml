@@ -12,11 +12,13 @@
     <modules>
         <module>tch-sms-api</module>
         <module>tch-sms-twilio</module>
-    <module>tch-sms-mock</module>
-  </modules>
+        <module>tch-sms-mock</module>
+        <module>tch-sms-dynamark</module>
+    </modules>
     <properties>
         <tch-util.version>2.0</tch-util.version>
         <commons-httpclient.version>3.1</commons-httpclient.version>
+        <dom4j.version>1.6.1</dom4j.version>
         <json-lib.version>2.4</json-lib.version>
     </properties>
 
