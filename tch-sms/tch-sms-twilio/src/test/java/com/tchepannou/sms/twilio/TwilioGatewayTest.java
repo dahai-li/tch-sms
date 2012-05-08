@@ -17,7 +17,6 @@ package com.tchepannou.sms.twilio;
 
 import com.tchepannou.sms.api.SMSRequest;
 import com.tchepannou.sms.api.SMSResponse;
-import com.tchepannou.sms.api.SMSService;
 import java.util.Properties;
 import junit.framework.TestCase;
 
