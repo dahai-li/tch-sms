@@ -16,7 +16,7 @@
         <module>tch-sms-dynamark</module>
     </modules>
     <properties>
-        <tch-util.version>2.0</tch-util.version>
+        <tch-util.version>2.0.1</tch-util.version>
         <commons-httpclient.version>3.1</commons-httpclient.version>
         <dom4j.version>1.6.1</dom4j.version>
         <json-lib.version>2.4</json-lib.version>
